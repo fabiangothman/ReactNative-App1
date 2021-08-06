@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1083432560840",
+    "firebase_url": "https://planeo-f0c87.firebaseio.com",
+    "project_id": "planeo-f0c87",
+    "storage_bucket": "planeo-f0c87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083432560840:android:181295eb3cbeb8616a5dfd",
+        "android_client_info": {
+          "package_name": "com.mareigua.planeoie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083432560840-jv6pvr9bm67og0ngj0014gkrm8r87fpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mareigua.planeoie",
+            "certificate_hash": "34f8c40e36831768dbd236e39e272360f09c0b85"
+          }
+        },
+        {
+          "client_id": "1083432560840-r44g4fnu2dnbi0uql4g0l80988kid5m9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBogRPe5x3dZQtVEF0k7KhRq8Ay7BFSOqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083432560840-r44g4fnu2dnbi0uql4g0l80988kid5m9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1083432560840-ufe5jushq53r3c1dfgaein02hp0ahs3i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mareigua.planeo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

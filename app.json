@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Planeo",
+    "slug": "Planeo",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mareigua.planeo",
+      "buildNumber": "12",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to take a pic and then upload it to the Drive feature, you can upload files by taking a new photo or by opening the library and selecting it.",
+        "NSPhotoLibraryUsageDescription": "This app uses the library access to select a file and then upload it to the Drive feature, you can upload files by taking a new photo or by opening the library and selecting it.",
+        "NSPhotoLibraryAddUsageDescription": "This app uses the permission to save files into the device by downloading files from the Drive files, you can see this feature on the 'Mis documentos' section.",
+        "config":{
+          "usesNonExemptEncryption": false
+        }
+      }
+    },
+    "android": {
+      "package": "com.mareigua.planeoie",
+      "versionCode": 12,
+      "permissions":["CAMERA", "READ_INTERNAL_STORAGE", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

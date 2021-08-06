@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "planeo-f0c87",
+    "planeo": "planeo-f0c87"
+  },
+  "targets": {
+    "planeo-f0c87": {
+      "hosting": {
+        "develop": [
+          "planeoapp-dev"
+        ],
+        "production": [
+          "planeo-f0c87"
+        ]
+      }
+    }
+  }
+}
